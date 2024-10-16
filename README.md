@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Movie Recommender
 A movie recommendation web application built using React and Vite, utilizing the TMDB API to fetch dynamic movie data. The app allows users to explore popular movies, search for specific titles, and view detailed information for each movie.
 
@@ -45,3 +46,13 @@ Start the development server:
 7. Start the development server:
 npm run dev
 Open the app in your browser at http://localhost:3000.
+=======
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+>>>>>>> f75a27b (Initial Commit)
