@@ -1,6 +1,10 @@
 import axios from "axios";
 
-const API_KEY = import.meta.env.VITE_API_KEY; // Access the API key from the environment variable
+// const API_KEY = import.meta.env.VITE_API_KEY;
+// Fallback to hardcoded API key for GitHub Pages if the environment variable is not available
+const API_KEY =
+  import.meta.env.VITE_TMDB_API_KEY || "8c9d17fb5518b24bfd54a46715fac379";
+
 const BASE_URL = "https://api.themoviedb.org/3";
 
 // Function to get popular movies
